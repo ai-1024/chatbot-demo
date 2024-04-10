@@ -1,0 +1,9 @@
+@baseUri=http://127.0.0.1:3000/api 
+
+### test
+POST {{baseUri}}/test 
+Content-Type: application/json
+
+{
+    "msg": "hello claude"
+}
